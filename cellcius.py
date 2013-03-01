@@ -11,7 +11,7 @@ in-bundle 15c.
 
 It's also very annoying running out of airtime during an important call.
 
-You'll need to cron this to run every n minutes.
+You'll need to set this up on with cron (or whatever).
 """
 
 import requests

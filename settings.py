@@ -1,12 +1,6 @@
 """CellCius is an automatic balance checking tool for the Cell-C mobile network
 in South Africa. 
 
-The script makes use of gmail to send warning emails so you'll need to 
-configure that below.
-
-Setup your "My Account" at https://www.cellc.co.za/my-account
-
-You'll need to set this up on with cron (or whatever).
 """
 # Don't output anything unless something goes wrong.
 quiet = True 

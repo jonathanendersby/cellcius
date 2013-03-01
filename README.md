@@ -17,8 +17,6 @@ in-bundle 15c.
 
 It's also very annoying running out of airtime during an important call.
 
-You'll need to cron this to run every n minutes.
-
 The script makes use of gmail to send warning emails so you'll need to 
 configure that below.
 
