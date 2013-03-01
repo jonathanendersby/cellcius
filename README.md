@@ -1,7 +1,11 @@
 cellcius
 ========
 
-CellCius is an automatic balance checking tool for the Cell-C mobile network in South Africa
+CellCius is an automatic balance checking tool for the Cell-C mobile network in 
+South Africa
+
+Receive emails warning you when your one of your balances (Voice Minutes, 
+Data MB or SMSes) drops below configurable thresholds.
 
 View settings.py for more info on configuring
 
