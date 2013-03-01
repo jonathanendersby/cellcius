@@ -9,7 +9,9 @@ quiet = True
 send_email_via = "gmail" 
 
 # If send_email_via is "gmail" this must be a gmail (or google apps) address
-send_from = "foo@gmail.com" 
+send_from = "My Cell-C reporter <foo@gmail.com>" 
+
+gmail_username = "foo@gmail.com"
 
 # If send_email_via is "gmail" then you need to provide your password. 
 gmail_password = "foobar"

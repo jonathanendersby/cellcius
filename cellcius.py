@@ -126,7 +126,7 @@ if ((settings.threshold_sms and sms < settings.threshold_sms) or \
             s.ehlo()
             s.starttls()
             s.ehlo()
-            s.login(settings.send_from, settings.gmail_password)
+            s.login(settings.gmail_username, settings.gmail_password)
             s.sendmail(settings.send_from, [settings.send_to], msg.as_string())
             s.close()
         
@@ -139,7 +139,7 @@ if ((settings.threshold_sms and sms < settings.threshold_sms) or \
             print 'Skipping email because it has only been %s minutes since we sent the last one. Currently set to %s hours.' % (delta.seconds/60, settings.send_email_every)
 else:
     if not settings.quiet:
-        print "Not over threshold"
+        print "Nothing under threshold"
 
 
 

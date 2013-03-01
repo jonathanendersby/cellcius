@@ -4,7 +4,7 @@ cellcius
 CellCius is an automatic balance checking tool for the Cell-C mobile network in 
 South Africa
 
-Receive emails warning you when your one of your balances (Voice Minutes, 
+Receive emails warning you when one of your balances (Voice Minutes, 
 Data MB or SMSes) drops below configurable thresholds.
 
 View settings.py for more info on configuring
@@ -23,3 +23,9 @@ configure that below.
 Setup your "My Account" at https://www.cellc.co.za/my-account
 
 You'll need to set this up on with cron (or whatever).
+
+Dependencies:
+* requests (pip install requests)
+* lxml (apt-get install python-lxml)
+
+The script writes a datetime to /tmp/cellcius_last_sent.txt when it sends email.
