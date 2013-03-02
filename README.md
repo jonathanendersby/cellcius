@@ -8,7 +8,8 @@ Receive email warnings when one of your balances (Voice Minutes, Data MB or
 SMSes) drops below configurable thresholds.
 
 The script can make use of either gmail or a local MTA to send the 
-warning emails.
+warning emails. You can configure how frequently you want to receive the
+warning emails (ie. Every 5 hours) in the settings file.
 
 View settings.py for more info on configuring.
 
@@ -32,8 +33,7 @@ INSTALLATION:
 * Setup your Cell-C "My Account" at https://www.cellc.co.za/my-account
 * Copy settings.py.sample to settings.py and configure accordingly.
 * Run "python cellcius.py" to confirm it's running correctly.
-* You'll then need to set it up to run via cron (or something). I 
-suggest running it hourly.
+* Set it up to run via cron (or something). I suggest hourly.
 
 
 Dependencies:
