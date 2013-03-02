@@ -30,8 +30,8 @@ Shouldn't Cell-C be sending these kinds of alerts? YES!
 INSTALLATION:
 ------------
 * Setup your Cell-C "My Account" at https://www.cellc.co.za/my-account
-* Copy settings.py.sample to settings.py, configure accordingly and then 
-run "python cellcius.py".
+* Copy settings.py.sample to settings.py and configure accordingly.
+* Run "python cellcius.py" to confirm it's running correctly.
 * You'll then need to set it up to run via cron (or something). I 
 suggest running it hourly.
 
