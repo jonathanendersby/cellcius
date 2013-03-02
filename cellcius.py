@@ -103,7 +103,7 @@ if ((settings.threshold_sms and sms < settings.threshold_sms) or \
     except IOError:
         no_last = True
     
-    if no_last or (delta.seconds / 60 / 60 > settings.send_email_every):
+    if no_last or (delta.seconds / 60 / 60 >= settings.send_email_every):
         if not settings.quiet:
             print 'Sending Warning Email'
         
