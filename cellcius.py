@@ -81,7 +81,7 @@ if ((settings.threshold_sms and sms < settings.threshold_sms) or \
     (settings.threshold_data and data < settings.threshold_data) or \
     (settings.threshold_voice and voice < settings.threshold_voice)):
     if not settings.quiet:
-        print "Over Threshold"
+        print "Under Threshold"
     
     try:
         last_sent = open('/tmp/cellcius_last_sent.txt','r')
