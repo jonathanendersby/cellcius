@@ -26,6 +26,9 @@ msisdn = '0841234567'
 # Be careful with this because they lock you out for an hour after 3 incorrects.
 cellc_password = 'supersecret' 
 
+# Cell C Cost Per Minute for Voice 
+cellc_voice_per_minute = 0.99
+
 # Below these numbers you will receive an email. None means you don't care.
 threshold_sms = None
 threshold_voice = 40 # minutes
